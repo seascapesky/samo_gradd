@@ -1,7 +1,6 @@
 Converte un **JSON di LabelMe** in una **maschera PNG mono-canale multi-classe**, gestendo anche i **fori**: qualsiasi shape con label `hole` viene **sottratta** dall’oggetto che la contiene.
 
 **Requisiti**
-```bash
 pip install labelme numpy Pillow piexif
 
 **Utilizzo**
