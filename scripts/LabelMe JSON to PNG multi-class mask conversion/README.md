@@ -3,8 +3,8 @@ Converte un **JSON di LabelMe** in una **maschera PNG mono-canale multi-classe**
 
 **Requisiti**
 
-pip install labelme numpy Pillow piexif
+`pip install labelme numpy Pillow piexif`
 
 **Utilizzo**
 
-python labelme_json_to_mask_multi_with_holes.py path/to/file.json
+`python labelme_json_to_mask_multi_with_holes.py path/to/file.json`
